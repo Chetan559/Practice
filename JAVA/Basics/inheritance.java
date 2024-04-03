@@ -22,12 +22,12 @@ class Vehical{ // here vehical is super class
     }
 }
 
-class Car extends Vehical{
+class Car extends Vehical{ // subclass of vehical
     int doors =4;
     int wheels = 4;
 }
 
-class Byke extends Vehical{
+class Byke extends Vehical{  // subclass of 
     int wheels =2;
     int padels =2;
 }
