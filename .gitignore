@@ -1,1 +1,4 @@
 *.class
+pythonProject/.idea
+pythonProject/.venv
+pythonProject/.idea
