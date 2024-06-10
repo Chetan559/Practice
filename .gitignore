@@ -1,4 +1,10 @@
 *.class
+*.iml
+*.xml
 pythonProject/.idea
 pythonProject/.venv
 pythonProject/.idea
+Java/.idea
+Java/out
+Java/Practice.iml
+JAVA/.idea/modules.xml

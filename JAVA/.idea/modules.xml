@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Access modifier/Access modifier.iml" filepath="$PROJECT_DIR$/Access modifier/Access modifier.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Copy/Copy.iml" filepath="$PROJECT_DIR$/Copy/Copy.iml" />
       <module fileurl="file://$PROJECT_DIR$/Practice.iml" filepath="$PROJECT_DIR$/Practice.iml" />
     </modules>
   </component>

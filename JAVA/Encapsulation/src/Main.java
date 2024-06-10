@@ -11,6 +11,15 @@ public class Main {
         System.out.print(car.getModel()+" ");
         System.out.print(car.getYear());
 //        the getModel(),getMake(),getYear() are the getter methods
+        car.setYear(2010);
+        car.setModel("Swift");
+        car.setMake("Suzuki");
+//        the setYear,setModel and setMake are the setter methods
+        System.out.println();
+        System.out.print(car.getMake()+" ");
+        System.out.print(car.getModel()+" ");
+        System.out.print(car.getYear());
     }
 }
 
+ 
