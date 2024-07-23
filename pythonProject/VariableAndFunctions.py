@@ -8,7 +8,7 @@ name, age, height = "chetan", 19, 5.8
 # the above line is equivalent of    name = "chetan"
 #                                    age =19
 #                                    height =5.8
-
+# print(*objects, sep='', end='\n') is a function used to print in terminal
 print(height)
 print(age)
 print(name)
@@ -25,3 +25,18 @@ print(height)
 height = int(height)
 print(type(height))
 print(height)
+# input() is similar to scanf() function in c.
+gname = input("give your name\n").title()
+print(gname)
+
+print(f"this is a formated string where {gname} is a varible ")
+
+# -----------------------------------------------------------------------------------------------------------------------
+# let us take a calculator example
+x = float(input("enter your x:"))
+y = float(input("enter your y:"))
+
+z = x/y
+print(z)
+# here .2f is used to print only two decimal digits in z
+print(f"{z:.2f}")
