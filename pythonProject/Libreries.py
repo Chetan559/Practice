@@ -8,7 +8,8 @@ import cowsay
 #  here cowsay is not an inbuilt librery it's a 3rd party library which is called a Pakage. generally available at pypi.org
 # python has its own inbuild pakages that is modules implemented in folders
 #  to use a pakage in your file yopu need to install that pakage in you machine using pakage manager (python has its own called pip)
-
+from Apis import get_songs
+#  here Apis is my own pakage/module
 
 if len(sys.argv) != 2:
     sys.exit("Give 2 arguments. e.g. python Libreries Chetan")
@@ -24,3 +25,7 @@ print("Hello,",sys.argv[1],"Good",wish)
 cowsay.cow("Hello" + sys.argv[1])
 cowsay.trex("Hello" + sys.argv[1])
 # these are funtion of pakage cowsay. refer to the documentations of the pakages if needed so
+no_of_songs = randint(1,10)
+artist = input("Give name of artist wose songs you want")
+
+get_songs(no_of_songs, artist)
