@@ -10,3 +10,9 @@ Java/out
 Java/Practice.iml
 JAVA/.idea/modules.xml
 
+pythonProject/.ipynb_checkpoints
+pythonProject/.idea
+pythonProject/.venv
+pythonProject/__pycache__
+pythonProject/tempCodeRunnerFile.py
+
