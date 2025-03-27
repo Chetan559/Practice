@@ -1,5 +1,13 @@
 # here we will se if , elif and else statement i python as well as match in python
 #  we'll create a program that will recomment a game to player as per their requirement 
+# =: Assignment operator
+
+# ==: Equality operator (value comparison)
+
+# ===: Not valid in Python (does not exist)
+
+# !=: Not equal operator (value comparison)
+
 def main():
     print("What kind of game do you want??")
     difficulty = input("Level of difficulty: Difficult or Casual? ")
@@ -53,8 +61,25 @@ def useMatch(difficulty,players):
 
 def recommend(game):
     print("You Should Play",game)
+    
+# List of fruits
+fruits = ["Apple", "Banana", "Orange", "Peach", "Grapes"]
+
+def search_fruit():
+    # We prompt the user to enter a fruit name
+    search = input("Enter a fruit to search for: ")
+
+    # The for loop searches through the list of fruits
+    for fruit in fruits:
+        if fruit.lower() == search.lower():  # Compare case-insensitively
+            print(f"{search} is in the list!")
+            break  # Exit the loop once the fruit is found
+    else:
+        # This block only executes if the loop completes without a 'break' (i.e., the fruit is not found)
+        print(f"{search} is not in the list.")
 
 main()
+search_fruit()
 
 
  

@@ -32,3 +32,4 @@ def test_square_string():
     with pytest.raises(TypeError):
         square("string")
         
+# with  is an context manager that allows us to test the code inside it and if it raises an error it will pass the test otherwise it will fail the test
